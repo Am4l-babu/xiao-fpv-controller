@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="600" viewBox="0 0 1440 600" role="img" aria-labelledby="title desc">
+  <title id="title">XIAO FPV Controller — small board, real control</title>
+  <desc id="desc">Two analog sticks connect to a tiny ESP32-S3 board over illuminated circuit traces. Four axes, two buttons, one USB cable.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1929"/><stop offset="1" stop-color="#060c16"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#c5d3e4"/><stop offset="1" stop-color="#63788f"/></linearGradient>
+    <radialGradient id="cap"><stop stop-color="#32465d"/><stop offset=".8" stop-color="#172638"/><stop offset="1" stop-color="#0d1826"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8bb2d3" stroke-opacity=".045"/></pattern>
+    <style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,monospace}.pulse{animation:pulse 4s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}</style>
+  </defs>
+  <rect width="1440" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="1440" height="600" rx="28" fill="url(#grid)"/>
+  <path d="M64 61H99" stroke="#c7f36b" stroke-width="4"/>
+  <text x="115" y="67" font-size="16" letter-spacing="3" fill="#b8cadc">XIAO / FPV CONTROLLER</text>
+  <text x="60" y="183" font-size="78" font-weight="700" letter-spacing="-4" fill="#f1f6ff">Small board.</text>
+  <text x="60" y="267" font-size="78" font-weight="700" letter-spacing="-4" fill="#c7f36b">Real control.</text>
+  <text x="64" y="324" font-size="22" fill="#a3b6cb">Two sticks. One cable. Your next flight.</text>
+  <text x="64" y="364" font-size="17" fill="#728ba5">Native USB HID · ESP32-S3 · PlatformIO + Arduino</text>
+  <g transform="translate(64 427)">
+    <rect width="150" height="54" rx="12" fill="#142d35" stroke="#27525c"/><text x="20" y="33" font-size="16" fill="#69e2df">04  AXES</text>
+    <rect x="165" width="164" height="54" rx="12" fill="#24223b" stroke="#494060"/><text x="185" y="33" font-size="16" fill="#c6b0ff">02  BUTTONS</text>
+    <rect x="344" width="161" height="54" rx="12" fill="#283121" stroke="#465336"/><text x="364" y="33" font-size="16" fill="#c7f36b">01  USB CABLE</text>
+  </g>
+  <text x="64" y="548" font-size="13" letter-spacing="2" fill="#607a94">BUILT FOR THE DESK. READY FOR THE SIM.</text>
+  <rect x="780" y="82" width="598" height="435" rx="30" fill="#0c1827" stroke="#23384e"/>
+  <text x="810" y="120" font-size="12" letter-spacing="2" fill="#607f9a">CONTROL DECK / MODE 2</text>
+  <circle cx="950" cy="245" r="95" fill="#0b1320" stroke="#254452" stroke-width="2"/>
+  <circle cx="950" cy="245" r="77" fill="url(#cap)" stroke="#334d60"/>
+  <path d="M855 245H1045M950 150V340" stroke="#5ce1e6" stroke-opacity=".2" stroke-dasharray="3 7"/>
+  <circle cx="950" cy="245" r="39" fill="#21364b" stroke="#5ce1e6" stroke-width="2"/>
+  <circle cx="950" cy="245" r="24" fill="#102031"/>
+  <circle cx="1215" cy="245" r="95" fill="#0b1320" stroke="#433b61" stroke-width="2"/>
+  <circle cx="1215" cy="245" r="77" fill="url(#cap)" stroke="#414c68"/>
+  <path d="M1120 245H1310M1215 150V340" stroke="#b89cff" stroke-opacity=".2" stroke-dasharray="3 7"/>
+  <circle cx="1215" cy="245" r="39" fill="#29334c" stroke="#b89cff" stroke-width="2"/>
+  <circle cx="1215" cy="245" r="24" fill="#141b30"/>
+  <text x="908" y="143" font-size="13" letter-spacing="1" fill="#69e2df">YAW / THR</text>
+  <text x="1162" y="143" font-size="13" letter-spacing="1" fill="#c6b0ff">ROLL / PITCH</text>
+  <g fill="none" stroke-width="2">
+    <path d="M910 340V395H1042V412" stroke="#5ce1e6"/><path d="M923 340V385H1056V412" stroke="#5ce1e6" opacity=".4"/>
+    <path d="M1255 340V395H1122V412" stroke="#b89cff"/><path d="M1242 340V385H1108V412" stroke="#b89cff" opacity=".4"/>
+    <path d="M1082 485V545H1375" stroke="#c7f36b"/>
+  </g>
+  <rect x="1030" y="406" width="104" height="89" rx="9" fill="#20392e" stroke="#91ad6a"/>
+  <rect x="1065" y="391" width="34" height="24" rx="5" fill="url(#metal)"/>
+  <rect x="1055" y="426" width="54" height="45" rx="5" fill="#adbdc7"/>
+  <text x="1082" y="444" text-anchor="middle" font-size="10" font-weight="700" fill="#1b2c37">XIAO</text>
+  <text x="1082" y="459" text-anchor="middle" class="mono" font-size="9" fill="#334653">ESP32-S3</text>
+  <circle class="pulse" cx="1043" cy="482" r="3" fill="#c7f36b"/>
+  <text x="1150" y="470" class="mono" font-size="12" fill="#6d8ca3">USB HID</text>
+  <text x="1200" y="570" class="mono" font-size="11" fill="#607a94">→ WINDOWS → FPV SKYDIVE</text>
+</svg>

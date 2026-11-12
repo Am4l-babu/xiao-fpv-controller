@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="640" viewBox="0 0 1400 640" role="img" aria-labelledby="title desc">
+  <title id="title">Wiring map for two joysticks and a Seeed XIAO ESP32-S3</title>
+  <desc id="desc">Left VRx, VRy, SW connect to D0, D1, D4. Right VRx, VRy, SW connect to D2, D3, D5. Both module supply pins use 3V3 and both grounds use GND.</desc>
+  <style>text{font-family:Arial,Helvetica,sans-serif}.mono{font-family:Consolas,monospace}</style>
+  <rect width="1400" height="640" rx="24" fill="#0b1421"/>
+  <text x="52" y="61" font-size="27" font-weight="700" fill="#eef5ff">Every connection, in one place.</text>
+  <text x="52" y="94" font-size="15" fill="#89a1b9">Board component side facing you · USB-C at the top · Disconnect USB before wiring</text>
+  <g fill="#122335" stroke="#284158"><rect x="52" y="155" width="390" height="43" rx="9"/><rect x="52" y="210" width="390" height="43" rx="9"/><rect x="52" y="265" width="390" height="43" rx="9"/><rect x="52" y="320" width="390" height="43" rx="9"/><rect x="52" y="375" width="390" height="43" rx="9"/><rect x="52" y="430" width="390" height="43" rx="9"/></g>
+  <g font-size="17"><text x="74" y="183" fill="#69e2df">LEFT  VRx  /  Yaw</text><text x="74" y="238" fill="#69e2df">LEFT  VRy  /  Throttle</text><text x="74" y="293" fill="#c6b0ff">RIGHT VRx  /  Roll</text><text x="74" y="348" fill="#c6b0ff">RIGHT VRy  /  Pitch</text><text x="74" y="403" fill="#e3c478">LEFT  SW   /  Button 1</text><text x="74" y="458" fill="#e3c478">RIGHT SW   /  Button 2</text></g>
+  <g fill="none" stroke-width="3"><path d="M442 177H565M442 232H565" stroke="#5ce1e6"/><path d="M442 287H565M442 342H565" stroke="#b89cff"/><path d="M442 397H565M442 452H565" stroke="#e3c478"/></g>
+  <rect x="565" y="130" width="240" height="407" rx="18" fill="#234236" stroke="#637e58" stroke-width="2"/>
+  <rect x="639" y="108" width="92" height="48" rx="9" fill="#b4c4d2"/>
+  <rect x="655" y="114" width="60" height="21" rx="8" fill="#26394b"/>
+  <g fill="#c2a777"><circle cx="565" cy="177" r="7"/><circle cx="565" cy="232" r="7"/><circle cx="565" cy="287" r="7"/><circle cx="565" cy="342" r="7"/><circle cx="565" cy="397" r="7"/><circle cx="565" cy="452" r="7"/><circle cx="565" cy="507" r="7"/><circle cx="805" cy="177" r="7"/><circle cx="805" cy="232" r="7"/><circle cx="805" cy="287" r="7"/><circle cx="805" cy="342" r="7"/><circle cx="805" cy="397" r="7"/><circle cx="805" cy="452" r="7"/><circle cx="805" cy="507" r="7"/></g>
+  <g class="mono" font-size="14" fill="#d7e9df"><text x="583" y="182">D0 / 1</text><text x="583" y="237">D1 / 2</text><text x="583" y="292">D2 / 3</text><text x="583" y="347">D3 / 4</text><text x="583" y="402">D4 / 5</text><text x="583" y="457">D5 / 6</text><text x="583" y="512">D6</text><text x="748" y="182">5V</text><text x="739" y="237">GND</text><text x="739" y="292">3V3</text><text x="739" y="347">D10</text><text x="748" y="402">D9</text><text x="748" y="457">D8</text><text x="748" y="512">D7</text></g>
+  <rect x="654" y="329" width="66" height="105" rx="6" fill="#9baeb1"/>
+  <text x="687" y="366" text-anchor="middle" font-size="14" font-weight="700" fill="#20333b">XIAO</text><text x="687" y="390" text-anchor="middle" class="mono" font-size="10" fill="#20333b">ESP32-S3</text>
+  <path d="M805 177H862" stroke="#e78383" stroke-width="2" stroke-dasharray="5 5"/><path d="M861 169l16 16m0-16l-16 16" stroke="#e78383" stroke-width="2"/>
+  <text x="902" y="182" font-size="16" fill="#e9a0a0">5V / VBUS is unused</text>
+  <path d="M805 232H902" stroke="#a8b8cb" stroke-width="3"/><path d="M805 287H902" stroke="#c7f36b" stroke-width="3"/>
+  <text x="922" y="228" font-size="17" fill="#d7e3ef">Both module GND pins</text><text x="922" y="251" font-size="13" fill="#829ab2">One shared ground</text>
+  <text x="922" y="284" font-size="17" fill="#c7f36b">Both module +5V / VCC pins</text><text x="922" y="307" font-size="13" fill="#829ab2">Supply them with 3.3 V in this build</text>
+  <rect x="902" y="366" width="438" height="122" rx="12" fill="#222b1b" stroke="#435137"/>
+  <text x="924" y="398" font-size="16" font-weight="700" fill="#c7f36b">Read the pin labels, not wire colors.</text>
+  <text x="924" y="426" font-size="14" fill="#b4c3a4">The joystick's “+5V” label is its supply input.</text>
+  <text x="924" y="450" font-size="14" fill="#b4c3a4">Powering it at 3.3 V keeps its analog outputs</text>
+  <text x="924" y="474" font-size="14" fill="#b4c3a4">within the ESP32-S3 input range.</text>
+  <text x="52" y="578" font-size="14" fill="#829ab2">D0–D5 are board labels. GPIO1–GPIO6 are chip numbers. They are not the same numbering scheme.</text>
+  <text x="52" y="608" class="mono" font-size="12" fill="#54718c">SIMPLIFIED WIRING ILLUSTRATION / SEE THE OFFICIAL SEEED PINOUT FOR HARDWARE DETAILS</text>
+</svg>
