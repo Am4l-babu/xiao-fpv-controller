@@ -28,6 +28,13 @@ The firmware reads **four independent axes**, debounces **two stick-click button
 
 ## Meet the controller
 
+<p align="center">
+  <a href="docs/assets/mode-2-mapping.png">
+    <img src="docs/assets/mode-2-mapping.png" width="720" alt="Annotated physical controller showing Mode 2: left stick throttle and yaw, right stick pitch and roll, with a drone movement guide.">
+  </a>
+</p>
+<p align="center"><sub>Mode 2 mapping on the physical controller. Click the image for full size. Set channel directions during simulator calibration.</sub></p>
+
 | Left hand | Right hand | Inside the board |
 | :--- | :--- | :--- |
 | ↔ **Yaw** · ↕ **Throttle** | ↔ **Roll** · ↕ **Pitch** | Four 12-bit ADC inputs |
